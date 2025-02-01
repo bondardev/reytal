@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit bootstrap="tests/bootstrap.php" colors="true" verbose="true">
+    <testsuites>
+        <testsuite name="Flatsome Api Products Test Suite">
+            <directory>C:\Users\Admin\Local Sites\reytaldigital\app\public\wp-content\plugins\flatsome-api-products\tests</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>

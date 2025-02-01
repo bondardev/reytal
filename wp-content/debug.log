@@ -1,0 +1,1327 @@
+[01-Feb-2025 11:33:23 UTC] [WooCommerce API] Запрашиваем товары с SKU: DDF487RG,TN_8560,72211
+[01-Feb-2025 11:33:24 UTC] [WooCommerce API] Ответ от API: Array
+(
+    [0] => Array
+        (
+            [id] => 174555
+            [name] => AKUTRELL MAKITA DDF487RG
+            [slug] => akutrell-makita-ddf487rg
+            [permalink] => https://dev.starkup.ee/hinnak3/toode/akutrell-makita-ddf487rg/
+            [date_created] => 2023-09-27T17:18:41
+            [date_created_gmt] => 2023-09-27T14:18:41
+            [date_modified] => 2024-01-20T22:16:14
+            [date_modified_gmt] => 2024-01-20T20:16:14
+            [type] => simple
+            [status] => publish
+            [featured] => 
+            [catalog_visibility] => hidden
+            [description] => <div class="row"  id="row-785949345">
+<div id="col-1315685067" class="col medium-9 small-12 large-9"  >
+<div class="col-inner"  >
+<h3>Akutrell Makita</h3>
+<p>Võimas harjavaba mootoriga üldtööriist kruvimiseks ja puurimiseks.</p>
+<p> Kahe kiiruse vahemikuga tõhus harjavaba mootoriga professionaalne tööriist kruvimiseks ja puurimiseks.<br />
+ Maks. pöördemoment 40/23 Nm.<br />
+ Mitmekülgne tööriist monteerijatele, ehitajatele ja hooldustöötajatele.<br />
+ Integreeritud LED -tuli.</p>
+<p>Makita DDF487 on varustatud 2-kiirusega mehaanilise käigukastiga.<br />
+Suur puurimiskiirus on mõeldud kergematel töödel kiireks puurimiseks.<br />
+Madala kiirusega režiim on mõeldud raskemateks töödeks, mis nõuavad suuremat pöördemomenti.<br />
+ 20-astmeline siduri seadistus ja puurimisrežiim täpsemaks kinnitusmomendi seadistamiseks. Elektrooniline pidur suurendab tootlikkust ja kasutaja turvalisust.<br />
+Komplektis 1 x 6.0Ah aku ja kiirlaadija. </p>
+<div class="message-box relative" style="padding-top:15px;padding-bottom:15px;">
+<div class="message-box-bg-image bg-fill fill" ></div>
+<div class="message-box-bg-overlay bg-fill fill" ></div>
+<div class="container relative">
+<div class="inner last-reset">
+<div class="row align-middle align-center"  id="row-190848467">
+<div id="col-558268547" class="col small-12 large-12"  >
+<div class="col-inner text-left"  >
+<h4>Omadused</h4>
+<div class="row"  id="row-315242738">
+<div id="col-868136070" class="col medium-6 small-12 large-6"  >
+<div class="col-inner"  >
+<p><i class="far fa-check-circle fa-2x"></i><strong> Käepideme optimaalne kuju</strong></p>
+<p><i class="far fa-check-circle fa-2x"></i><strong> LED lamp valgustab töökoha</strong></p>
+</p></div>
+<style>
+#col-868136070 > .col-inner {
+  margin: 0px 0px 15px 0px;
+}
+</style>
+</p></div>
+<div id="col-1771730496" class="col medium-6 small-12 large-6"  >
+<div class="col-inner"  >
+<p><i class="far fa-check-circle fa-2x"></i><strong> Väga võimas ja kompaktne üldtööriist professionaalseks kasutamiseks</strong></p>
+<p><i class="far fa-check-circle fa-2x"></i><strong> Aku liigset tühjenemist takistav vooluahel</strong></p>
+</p></div>
+<style>
+#col-1771730496 > .col-inner {
+  margin: 0px 0px 15px 0px;
+}
+</style>
+</p></div>
+</div></div>
+</p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="gap-964239740" class="gap-element clearfix" style="display:block; height:auto;">
+<style>
+#gap-964239740 {
+  padding-top: 30px;
+}
+</style>
+</p></div>
+</p></div>
+</p></div>
+<div id="col-339321476" class="col medium-3 small-12 large-3"  >
+<div class="col-inner"  >
+<div id="gap-725178895" class="gap-element clearfix" style="display:block; height:auto;">
+<style>
+#gap-725178895 {
+  padding-top: 30px;
+}
+</style>
+</p></div>
+<h3>Kasutusjuhend</h3>
+<p><a href="https://dev.starkup.ee/hinnak3/wp-content/uploads/2021/10/DDF487.pdf" target="_blank" rel="noopener noreferrer"><i class="far fa-file-pdf"></i> Kasutusjuhend (PDF)</a></p>
+<div class="is-divider divider clearfix" ></div>
+<p><strong>Üksikasjalikuma nõu saamiseks võtke ühendust:<br /></strong>Espak AS<br />Viadukti 42<br />11313<br />Tallinn<br /> Tööriista osakond +372 6512 335<br /><a href="mailto:tooriist@espak.ee">tooriist@espak.ee</a></p>
+</p></div>
+</p></div>
+</div>
+
+            [short_description] => 
+            [sku] => DDF487RG
+            [price] => 225
+            [regular_price] => 225
+            [sale_price] => 202.5
+            [date_on_sale_from] => 
+            [date_on_sale_from_gmt] => 
+            [date_on_sale_to] => 
+            [date_on_sale_to_gmt] => 
+            [on_sale] => 1
+            [purchasable] => 1
+            [total_sales] => 2
+            [virtual] => 
+            [downloadable] => 
+            [downloads] => Array
+                (
+                )
+
+            [download_limit] => -1
+            [download_expiry] => -1
+            [external_url] => 
+            [button_text] => 
+            [tax_status] => taxable
+            [tax_class] => 
+            [manage_stock] => 1
+            [stock_quantity] => 0
+            [backorders] => no
+            [backorders_allowed] => 
+            [backordered] => 
+            [low_stock_amount] => 
+            [sold_individually] => 
+            [weight] => 4
+            [dimensions] => Array
+                (
+                    [length] => 395
+                    [width] => 295
+                    [height] => 163
+                )
+
+            [shipping_required] => 1
+            [shipping_taxable] => 1
+            [shipping_class] => 
+            [shipping_class_id] => 0
+            [reviews_allowed] => 
+            [average_rating] => 0.00
+            [rating_count] => 0
+            [upsell_ids] => Array
+                (
+                )
+
+            [cross_sell_ids] => Array
+                (
+                )
+
+            [parent_id] => 0
+            [purchase_note] => 
+            [categories] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 2733
+                            [name] => Akutööriistad
+                            [slug] => akutooriistad
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 2744
+                            [name] => Akutrellid
+                            [slug] => akutrellid
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 2680
+                            [name] => Elektritööriistad
+                            [slug] => elektritooriistad
+                        )
+
+                    [3] => Array
+                        (
+                            [id] => 2679
+                            [name] => TÖÖRIISTAD
+                            [slug] => tooriistad
+                        )
+
+                )
+
+            [tags] => Array
+                (
+                )
+
+            [images] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 174585
+                            [date_created] => 2023-09-28T10:37:10
+                            [date_created_gmt] => 2023-09-28T04:37:10
+                            [date_modified] => 2023-09-28T10:37:10
+                            [date_modified_gmt] => 2023-09-28T04:37:10
+                            [src] => https://dev.starkup.ee/hinnak3/wp-content/uploads/2023/09/DDF487_C2L0-3.jpg
+                            [name] => DDF487_C2L0-3
+                            [alt] => 
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 174590
+                            [date_created] => 2023-09-28T10:37:26
+                            [date_created_gmt] => 2023-09-28T04:37:26
+                            [date_modified] => 2023-09-28T10:37:26
+                            [date_modified_gmt] => 2023-09-28T04:37:26
+                            [src] => https://dev.starkup.ee/hinnak3/wp-content/uploads/2023/09/DDF487_F_002-2.jpg
+                            [name] => DDF487_F_002-2
+                            [alt] => 
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 174589
+                            [date_created] => 2023-09-28T10:37:22
+                            [date_created_gmt] => 2023-09-28T04:37:22
+                            [date_modified] => 2023-09-28T10:37:22
+                            [date_modified_gmt] => 2023-09-28T04:37:22
+                            [src] => https://dev.starkup.ee/hinnak3/wp-content/uploads/2023/09/DDF487_F_001-2.jpg
+                            [name] => DDF487_F_001-2
+                            [alt] => 
+                        )
+
+                    [3] => Array
+                        (
+                            [id] => 174588
+                            [date_created] => 2023-09-28T10:37:19
+                            [date_created_gmt] => 2023-09-28T04:37:19
+                            [date_modified] => 2023-09-28T10:37:19
+                            [date_modified_gmt] => 2023-09-28T04:37:19
+                            [src] => https://dev.starkup.ee/hinnak3/wp-content/uploads/2023/09/DDF487_D1CK.jpg
+                            [name] => DDF487_D1CK
+                            [alt] => 
+                        )
+
+                    [4] => Array
+                        (
+                            [id] => 174587
+                            [date_created] => 2023-09-28T10:37:15
+                            [date_created_gmt] => 2023-09-28T04:37:15
+                            [date_modified] => 2023-09-28T10:37:15
+                            [date_modified_gmt] => 2023-09-28T04:37:15
+                            [src] => https://dev.starkup.ee/hinnak3/wp-content/uploads/2023/09/DDF487_C8L0-2.jpg
+                            [name] => DDF487_C8L0-2
+                            [alt] => 
+                        )
+
+                    [5] => Array
+                        (
+                            [id] => 174586
+                            [date_created] => 2023-09-28T10:37:13
+                            [date_created_gmt] => 2023-09-28T04:37:13
+                            [date_modified] => 2023-09-28T10:37:13
+                            [date_modified_gmt] => 2023-09-28T04:37:13
+                            [src] => https://dev.starkup.ee/hinnak3/wp-content/uploads/2023/09/DDF487_C7C0.jpg
+                            [name] => DDF487_C7C0
+                            [alt] => 
+                        )
+
+                )
+
+            [attributes] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 0
+                            [name] => Pinge LXT
+                            [position] => 1
+                            [visible] => 1
+                            [variation] => 
+                            [options] => Array
+                                (
+                                    [0] => Olemas
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 139
+                            [name] => Kaubamärk
+                            [position] => 1
+                            [visible] => 1
+                            [variation] => 
+                            [options] => Array
+                                (
+                                    [0] => MAKITA
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 0
+                            [name] => Ribakood
+                            [position] => 1
+                            [visible] => 1
+                            [variation] => 
+                            [options] => Array
+                                (
+                                    [0] => 088381754965
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [id] => 0
+                            [name] => Aku nominaalpinge
+                            [position] => 2
+                            [visible] => 1
+                            [variation] => 
+                            [options] => Array
+                                (
+                                    [0] => 18V
+                                )
+
+                        )
+
+                    [4] => Array
+                        (
+                            [id] => 0
+                            [name] => Akukeemia
+                            [position] => 3
+                            [visible] => 1
+                            [variation] => 
+                            [options] => Array
+                                (
+                                    [0] => Li-ion
+                                )
+
+                        )
+
+                    [5] => Array
+                        (
+                            [id] => 0
+                            [name] => Pöörete arv
+                            [position] => 4
+                            [visible] => 1
+                            [variation] => 
+                            [options] => Array
+                                (
+                                    [0] => 0 - 500 / 0 - 1700 min-1
+                                )
+
+                        )
+
+                    [6] => Array
+                        (
+                            [id] => 0
+                            [name] => Maks.pöördemoment (Kõva/pehme)
+                            [position] => 5
+                            [visible] => 1
+                            [variation] => 
+                            [options] => Array
+                                (
+                                    [0] => 40 / 25 Nm
+                                )
+
+                        )
+
+                    [7] => Array
+                        (
+                            [id] => 0
+                            [name] => Siduri astmeid
+                            [position] => 6
+                            [visible] => 1
+                            [variation] => 
+                            [options] => Array
+                                (
+                                    [0] => 20
+                                )
+
+                        )
+
+                    [8] => Array
+                        (
+                            [id] => 0
+                            [name] => Maks. läbimõõt puidus
+                            [position] => 7
+                            [visible] => 1
+                            [variation] => 
+                            [options] => Array
+                                (
+                                    [0] => 36 mm
+                                )
+
+                        )
+
+                    [9] => Array
+                        (
+                            [id] => 0
+                            [name] => Maks. läbimõõt terases
+                            [position] => 8
+                            [visible] => 1
+                            [variation] => 
+                            [options] => Array
+                                (
+                                    [0] => 13 mm
+                                )
+
+                        )
+
+                    [10] => Array
+                        (
+                            [id] => 0
+                            [name] => Spindel
+                            [position] => 9
+                            [visible] => 1
+                            [variation] => 
+                            [options] => Array
+                                (
+                                    [0] => 1/2"-20UNF "
+                                )
+
+                        )
+
+                    [11] => Array
+                        (
+                            [id] => 0
+                            [name] => Padrun
+                            [position] => 10
+                            [visible] => 1
+                            [variation] => 
+                            [options] => Array
+                                (
+                                    [0] => 1,5 - 13 mm
+                                )
+
+                        )
+
+                    [12] => Array
+                        (
+                            [id] => 0
+                            [name] => Helirõhu tase (LpA)
+                            [position] => 11
+                            [visible] => 1
+                            [variation] => 
+                            [options] => Array
+                                (
+                                    [0] => 73 dB(A)
+                                )
+
+                        )
+
+                    [13] => Array
+                        (
+                            [id] => 0
+                            [name] => Toote kaal koos akuga (EPTA- Protseduur 01/2003)
+                            [position] => 12
+                            [visible] => 1
+                            [variation] => 
+                            [options] => Array
+                                (
+                                    [0] => 1,3 - 1,6 kg
+                                )
+
+                        )
+
+                    [14] => Array
+                        (
+                            [id] => 0
+                            [name] => Toote mõõdud (P x L x K)
+                            [position] => 13
+                            [visible] => 1
+                            [variation] => 
+                            [options] => Array
+                                (
+                                    [0] => 150 x 81 x 248 mm
+                                )
+
+                        )
+
+                )
+
+            [default_attributes] => Array
+                (
+                )
+
+            [variations] => Array
+                (
+                )
+
+            [grouped_products] => Array
+                (
+                )
+
+            [menu_order] => 0
+            [price_html] => <del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>225.00<span class="woocommerce-Price-currencySymbol">&euro;</span></bdi></span></del> <ins><span class="woocommerce-Price-amount amount"><bdi>225.00<span class="woocommerce-Price-currencySymbol">&euro;</span></bdi></span></ins>
+            [related_ids] => Array
+                (
+                    [0] => 5855
+                    [1] => 5843
+                    [2] => 5850
+                    [3] => 5852
+                    [4] => 5841
+                )
+
+            [meta_data] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 333636065
+                            [key] => _wp_page_template
+                            [value] => default
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 333636091
+                            [key] => espak_artno
+                            [value] => 433544
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 333636092
+                            [key] => collrate
+                            [value] => 
+                        )
+
+                    [3] => Array
+                        (
+                            [id] => 333636093
+                            [key] => collunit
+                            [value] => 
+                        )
+
+                    [4] => Array
+                        (
+                            [id] => 333636097
+                            [key] => store_only
+                            [value] => F
+                        )
+
+                    [5] => Array
+                        (
+                            [id] => 333931445
+                            [key] => yikes_woo_products_tabs
+                            [value] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [title] => Kasutusjuhend
+                                            [id] => kasutusjuhend
+                                            [content] => <a href="https://espak.ee/epood/wp-content/uploads/2021/10/DDF487.pdf" target="_blank" rel="noopener noreferrer"><i class="fa fa-file-pdf-o"></i> Kasutusjuhend (PDF)</a>
+                                        )
+
+                                )
+
+                        )
+
+                    [6] => Array
+                        (
+                            [id] => 333931446
+                            [key] => wc_productdata_options
+                            [value] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [_product_block] => 0
+                                            [_top_content] => 
+                                            [_bottom_content] => 
+                                            [_bubble_new] => 
+                                            [_bubble_text] => 
+                                            [_custom_tab_title] => 
+                                            [_custom_tab] => 
+                                            [_product_video] => 
+                                            [_product_video_size] => 
+                                            [_product_video_placement] => 
+                                        )
+
+                                )
+
+                        )
+
+                    [7] => Array
+                        (
+                            [id] => 338830938
+                            [key] => unit
+                            [value] => TK
+                        )
+
+                    [8] => Array
+                        (
+                            [id] => 338830939
+                            [key] => _input_qty
+                            [value] => 
+                        )
+
+                    [9] => Array
+                        (
+                            [id] => 338830940
+                            [key] => _step_qty
+                            [value] => 
+                        )
+
+                    [10] => Array
+                        (
+                            [id] => 338830941
+                            [key] => backorder_length
+                            [value] => 
+                        )
+
+                )
+
+            [stock_status] => outofstock
+            [has_options] => 
+            [post_password] => 
+            [_links] => Array
+                (
+                    [self] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [href] => https://dev.starkup.ee/hinnak3/wp-json/wc/v3/products/174555
+                                )
+
+                        )
+
+                    [collection] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [href] => https://dev.starkup.ee/hinnak3/wp-json/wc/v3/products
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [1] => Array
+        (
+            [id] => 174550
+            [name] => PRUSSIKING 76*152 CE
+            [slug] => prussiking-76152-ce
+            [permalink] => https://dev.starkup.ee/hinnak3/toode/prussiking-76152-ce/
+            [date_created] => 2023-09-27T17:06:30
+            [date_created_gmt] => 2023-09-27T14:06:30
+            [date_modified] => 2024-01-20T22:16:14
+            [date_modified_gmt] => 2024-01-20T20:16:14
+            [type] => simple
+            [status] => publish
+            [featured] => 
+            [catalog_visibility] => hidden
+            [description] => <div class="row"  id="row-79094973">
+<div id="col-2071993207" class="col medium-9 small-12 large-9"  >
+<div class="col-inner"  >
+<h3>Prussiking 76x152  </h3>
+<p><strong>Materjal:</strong> DX51D<br />
+<strong>Pinnakate:</strong> Z275<br />
+<strong>Sertifikaadid, heakskiidud:</strong> ETA, CE </p>
+</p></div>
+</p></div>
+<div id="col-90392543" class="col medium-3 small-12 large-3"  >
+<div class="col-inner"  >
+<div id="gap-2092958060" class="gap-element clearfix" style="display:block; height:auto;">
+<style>
+#gap-2092958060 {
+  padding-top: 30px;
+}
+</style>
+</p></div>
+<div class="is-divider divider clearfix" ></div>
+<p><strong>Üksikasjalikuma nõu saamiseks võtke ühendust:<br /></strong>ARRAS CONSTRUCTION FURNITURE OÜ<br />Valli tee 17, Vaela küla<br />75413<br />Harjumaa<br />+372 5309 1939</p>
+</p></div>
+</p></div>
+</div>
+
+            [short_description] => 
+            [sku] => 72211
+            [price] => 1.9
+            [regular_price] => 1.9
+            [sale_price] => 1.71
+            [date_on_sale_from] => 
+            [date_on_sale_from_gmt] => 
+            [date_on_sale_to] => 
+            [date_on_sale_to_gmt] => 
+            [on_sale] => 1
+            [purchasable] => 1
+            [total_sales] => 0
+            [virtual] => 
+            [downloadable] => 
+            [downloads] => Array
+                (
+                )
+
+            [download_limit] => -1
+            [download_expiry] => -1
+            [external_url] => 
+            [button_text] => 
+            [tax_status] => taxable
+            [tax_class] => 
+            [manage_stock] => 1
+            [stock_quantity] => 0
+            [backorders] => no
+            [backorders_allowed] => 
+            [backordered] => 
+            [low_stock_amount] => 
+            [sold_individually] => 
+            [weight] => 0.351
+            [dimensions] => Array
+                (
+                    [length] => 81
+                    [width] => 135
+                    [height] => 135
+                )
+
+            [shipping_required] => 1
+            [shipping_taxable] => 1
+            [shipping_class] => 
+            [shipping_class_id] => 0
+            [reviews_allowed] => 
+            [average_rating] => 0.00
+            [rating_count] => 0
+            [upsell_ids] => Array
+                (
+                )
+
+            [cross_sell_ids] => Array
+                (
+                )
+
+            [parent_id] => 0
+            [purchase_note] => 
+            [categories] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 2917
+                            [name] => Kinnitustarvikud
+                            [slug] => kinnitustarvikud
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 2918
+                            [name] => Metallnurgad
+                            [slug] => metallnurgad
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 2923
+                            [name] => Prussikingad
+                            [slug] => prussikingad
+                        )
+
+                    [3] => Array
+                        (
+                            [id] => 2893
+                            [name] => RAUAKAUBAD
+                            [slug] => rauakaubad
+                        )
+
+                )
+
+            [tags] => Array
+                (
+                )
+
+            [images] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 174633
+                            [date_created] => 2023-09-28T15:32:52
+                            [date_created_gmt] => 2023-09-28T09:32:52
+                            [date_modified] => 2023-09-28T15:32:52
+                            [date_modified_gmt] => 2023-09-28T09:32:52
+                            [src] => https://dev.starkup.ee/hinnak3/wp-content/uploads/2023/09/72211.jpg
+                            [name] => 72211
+                            [alt] => 
+                        )
+
+                )
+
+            [attributes] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 139
+                            [name] => Kaubamärk
+                            [position] => 1
+                            [visible] => 1
+                            [variation] => 
+                            [options] => Array
+                                (
+                                    [0] => ARRAS CONSTRUCTION FURNITURE OÜ
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 0
+                            [name] => Ribakood
+                            [position] => 1
+                            [visible] => 1
+                            [variation] => 
+                            [options] => Array
+                                (
+                                    [0] => 4741280722119
+                                )
+
+                        )
+
+                )
+
+            [default_attributes] => Array
+                (
+                )
+
+            [variations] => Array
+                (
+                )
+
+            [grouped_products] => Array
+                (
+                )
+
+            [menu_order] => 0
+            [price_html] => <del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>1.90<span class="woocommerce-Price-currencySymbol">&euro;</span></bdi></span></del> <ins><span class="woocommerce-Price-amount amount"><bdi>1.90<span class="woocommerce-Price-currencySymbol">&euro;</span></bdi></span></ins>
+            [related_ids] => Array
+                (
+                    [0] => 13940
+                    [1] => 13941
+                    [2] => 13939
+                    [3] => 13937
+                    [4] => 13933
+                )
+
+            [meta_data] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 333628389
+                            [key] => _wp_page_template
+                            [value] => default
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 333628415
+                            [key] => espak_artno
+                            [value] => 428718
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 333628416
+                            [key] => collrate
+                            [value] => 
+                        )
+
+                    [3] => Array
+                        (
+                            [id] => 333628417
+                            [key] => collunit
+                            [value] => 
+                        )
+
+                    [4] => Array
+                        (
+                            [id] => 333628421
+                            [key] => store_only
+                            [value] => F
+                        )
+
+                    [5] => Array
+                        (
+                            [id] => 334113499
+                            [key] => yikes_woo_products_tabs
+                            [value] => Array
+                                (
+                                )
+
+                        )
+
+                    [6] => Array
+                        (
+                            [id] => 334113500
+                            [key] => wc_productdata_options
+                            [value] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [_product_block] => 0
+                                            [_top_content] => 
+                                            [_bottom_content] => 
+                                            [_bubble_new] => 
+                                            [_bubble_text] => 
+                                            [_custom_tab_title] => 
+                                            [_custom_tab] => 
+                                            [_product_video] => 
+                                            [_product_video_size] => 
+                                            [_product_video_placement] => 
+                                        )
+
+                                )
+
+                        )
+
+                    [7] => Array
+                        (
+                            [id] => 338820435
+                            [key] => unit
+                            [value] => TÜKK
+                        )
+
+                    [8] => Array
+                        (
+                            [id] => 338820436
+                            [key] => _input_qty
+                            [value] => 
+                        )
+
+                    [9] => Array
+                        (
+                            [id] => 338820437
+                            [key] => _step_qty
+                            [value] => 
+                        )
+
+                    [10] => Array
+                        (
+                            [id] => 338820438
+                            [key] => backorder_length
+                            [value] => 
+                        )
+
+                )
+
+            [stock_status] => outofstock
+            [has_options] => 
+            [post_password] => 
+            [_links] => Array
+                (
+                    [self] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [href] => https://dev.starkup.ee/hinnak3/wp-json/wc/v3/products/174550
+                                )
+
+                        )
+
+                    [collection] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [href] => https://dev.starkup.ee/hinnak3/wp-json/wc/v3/products
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [2] => Array
+        (
+            [id] => 174501
+            [name] => ADAPTER 400V 16A/32A IP44
+            [slug] => adapter-400v-16a-32a-ip44
+            [permalink] => https://dev.starkup.ee/hinnak3/toode/adapter-400v-16a-32a-ip44/
+            [date_created] => 2023-09-27T14:48:31
+            [date_created_gmt] => 2023-09-27T11:48:31
+            [date_modified] => 2024-03-22T20:03:43
+            [date_modified_gmt] => 2024-03-22T18:03:43
+            [type] => simple
+            [status] => publish
+            [featured] => 
+            [catalog_visibility] => visible
+            [description] => <div class="row"  id="row-334087334">
+<div id="col-326818721" class="col medium-9 small-12 large-9"  >
+<div class="col-inner"  >
+<h3>Adapter 400V 16A/32A IP44</h3>
+<p>Adapter ühendatakse 16 A pistikupessa ja seejärel saab teise otsa ühendada 32 A toitepistiku.</p>
+</p></div>
+</p></div>
+<div id="col-1504660924" class="col medium-3 small-12 large-3"  >
+<div class="col-inner"  >
+<div class="is-divider divider clearfix" ></div>
+<p><strong>Üksikasjalikuma nõu saamiseks võtke ühendust:<br /></strong>Espak AS<br />Viadukti 42<br />11313<br />Tallinn<br />+372 6 512333</p>
+</p></div>
+</p></div>
+</div>
+
+            [short_description] => 
+            [sku] => TN_8560
+            [price] => 79
+            [regular_price] => 79
+            [sale_price] => 71.1
+            [date_on_sale_from] => 
+            [date_on_sale_from_gmt] => 
+            [date_on_sale_to] => 
+            [date_on_sale_to_gmt] => 
+            [on_sale] => 1
+            [purchasable] => 1
+            [total_sales] => 0
+            [virtual] => 
+            [downloadable] => 
+            [downloads] => Array
+                (
+                )
+
+            [download_limit] => -1
+            [download_expiry] => -1
+            [external_url] => 
+            [button_text] => 
+            [tax_status] => taxable
+            [tax_class] => 
+            [manage_stock] => 1
+            [stock_quantity] => 0
+            [backorders] => no
+            [backorders_allowed] => 
+            [backordered] => 
+            [low_stock_amount] => 
+            [sold_individually] => 
+            [weight] => 0.5
+            [dimensions] => Array
+                (
+                    [length] => 80
+                    [width] => 200
+                    [height] => 80
+                )
+
+            [shipping_required] => 1
+            [shipping_taxable] => 1
+            [shipping_class] => 
+            [shipping_class_id] => 0
+            [reviews_allowed] => 
+            [average_rating] => 0.00
+            [rating_count] => 0
+            [upsell_ids] => Array
+                (
+                )
+
+            [cross_sell_ids] => Array
+                (
+                )
+
+            [parent_id] => 0
+            [purchase_note] => 
+            [categories] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 2935
+                            [name] => Elektrikaubad
+                            [slug] => elektrikaubad
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 2934
+                            [name] => ELEKTRIKAUBAD JA VALGUSTID
+                            [slug] => elektrikaubad-ja-valgustid
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 3272
+                            [name] => Elektrikaupade lisamaterjalid
+                            [slug] => elektrikaupade-lisamaterjalid
+                        )
+
+                    [3] => Array
+                        (
+                            [id] => 3271
+                            [name] => Kilbid ja tarvikud
+                            [slug] => kilbid-ja-tarvikud
+                        )
+
+                )
+
+            [tags] => Array
+                (
+                )
+
+            [images] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 174538
+                            [date_created] => 2023-09-27T19:05:05
+                            [date_created_gmt] => 2023-09-27T13:05:05
+                            [date_modified] => 2023-09-27T19:05:05
+                            [date_modified_gmt] => 2023-09-27T13:05:05
+                            [src] => https://dev.starkup.ee/hinnak3/wp-content/uploads/2023/09/AdapteriIP445N16A5N32A_85601.jpg
+                            [name] => AdapteriIP445N16A5N32A_85601
+                            [alt] => 
+                        )
+
+                )
+
+            [attributes] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 139
+                            [name] => Kaubamärk
+                            [position] => 1
+                            [visible] => 1
+                            [variation] => 
+                            [options] => Array
+                                (
+                                    [0] => TOOLNET ELEKTRO OY
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 0
+                            [name] => Ribakood
+                            [position] => 1
+                            [visible] => 1
+                            [variation] => 
+                            [options] => Array
+                                (
+                                    [0] => 4011160605307
+                                )
+
+                        )
+
+                )
+
+            [default_attributes] => Array
+                (
+                )
+
+            [variations] => Array
+                (
+                )
+
+            [grouped_products] => Array
+                (
+                )
+
+            [menu_order] => 0
+            [price_html] => <del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>79.00<span class="woocommerce-Price-currencySymbol">&euro;</span></bdi></span></del> <ins><span class="woocommerce-Price-amount amount"><bdi>79.00<span class="woocommerce-Price-currencySymbol">&euro;</span></bdi></span></ins>
+            [related_ids] => Array
+                (
+                    [0] => 15957
+                    [1] => 15954
+                    [2] => 15953
+                    [3] => 15955
+                    [4] => 16605
+                )
+
+            [meta_data] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 333542893
+                            [key] => _wp_page_template
+                            [value] => default
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 333542918
+                            [key] => espak_artno
+                            [value] => 395340
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 333542919
+                            [key] => collrate
+                            [value] => 
+                        )
+
+                    [3] => Array
+                        (
+                            [id] => 333542920
+                            [key] => collunit
+                            [value] => 
+                        )
+
+                    [4] => Array
+                        (
+                            [id] => 333542924
+                            [key] => store_only
+                            [value] => F
+                        )
+
+                    [5] => Array
+                        (
+                            [id] => 333589990
+                            [key] => yikes_woo_products_tabs
+                            [value] => Array
+                                (
+                                )
+
+                        )
+
+                    [6] => Array
+                        (
+                            [id] => 333589991
+                            [key] => wc_productdata_options
+                            [value] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [_product_block] => 0
+                                            [_top_content] => 
+                                            [_bottom_content] => 
+                                            [_bubble_new] => 
+                                            [_bubble_text] => 
+                                            [_custom_tab_title] => 
+                                            [_custom_tab] => 
+                                            [_product_video] => 
+                                            [_product_video_size] => 
+                                            [_product_video_placement] => 
+                                        )
+
+                                )
+
+                        )
+
+                    [7] => Array
+                        (
+                            [id] => 338726216
+                            [key] => unit
+                            [value] => TK
+                        )
+
+                    [8] => Array
+                        (
+                            [id] => 338726217
+                            [key] => _input_qty
+                            [value] => 
+                        )
+
+                    [9] => Array
+                        (
+                            [id] => 338726218
+                            [key] => _step_qty
+                            [value] => 
+                        )
+
+                    [10] => Array
+                        (
+                            [id] => 338726219
+                            [key] => backorder_length
+                            [value] => 
+                        )
+
+                )
+
+            [stock_status] => outofstock
+            [has_options] => 
+            [post_password] => 
+            [_links] => Array
+                (
+                    [self] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [href] => https://dev.starkup.ee/hinnak3/wp-json/wc/v3/products/174501
+                                )
+
+                        )
+
+                    [collection] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [href] => https://dev.starkup.ee/hinnak3/wp-json/wc/v3/products
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+[01-Feb-2025 11:33:24 UTC] Обновление товара с SKU: DDF487RG
+[01-Feb-2025 11:33:25 UTC] Товар SKU: DDF487RG успешно создан/обновлен. ID: 136
+[01-Feb-2025 11:33:25 UTC] Обновление товара с SKU: 72211
+[01-Feb-2025 11:33:25 UTC] Товар SKU: 72211 успешно создан/обновлен. ID: 137
+[01-Feb-2025 11:33:25 UTC] Обновление товара с SKU: TN_8560
+[01-Feb-2025 11:33:25 UTC] Товар SKU: TN_8560 успешно создан/обновлен. ID: 138
+[01-Feb-2025 11:33:25 UTC] Import completed successfully.
+[01-Feb-2025 11:47:12 UTC] Обновление товара с SKU: DDF487RG
+[01-Feb-2025 11:47:12 UTC] Товар SKU: DDF487RG успешно создан/обновлен. ID: 136
+[01-Feb-2025 11:47:12 UTC] Обновление товара с SKU: 72211
+[01-Feb-2025 11:47:12 UTC] Товар SKU: 72211 успешно создан/обновлен. ID: 137
+[01-Feb-2025 11:47:12 UTC] Обновление товара с SKU: TN_8560
+[01-Feb-2025 11:47:12 UTC] Товар SKU: TN_8560 успешно создан/обновлен. ID: 138
+[01-Feb-2025 11:47:12 UTC] Import completed successfully.
+[01-Feb-2025 12:17:52 UTC] PHP Warning:  require_once(C:\Users\Admin\Local Sites\reytaldigital\app\public\wp-content\plugins\flatsome-api-products/includes/helpers.php): Failed to open stream: No such file or directory in C:\Users\Admin\Local Sites\reytaldigital\app\public\wp-content\plugins\flatsome-api-products\flatsome-api-products.php on line 68
+[01-Feb-2025 12:17:52 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\Admin\Local Sites\reytaldigital\app\public\wp-content\plugins\flatsome-api-products/includes/helpers.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\Admin\Local Sites\reytaldigital\app\public\wp-content\plugins\flatsome-api-products\flatsome-api-products.php:68
+Stack trace:
+#0 C:\Users\Admin\Local Sites\reytaldigital\app\public\wp-includes\class-wp-hook.php(324): Flatsome_Api_Products->init('')
+#1 C:\Users\Admin\Local Sites\reytaldigital\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\Admin\Local Sites\reytaldigital\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\Admin\Local Sites\reytaldigital\app\public\wp-settings.php(559): do_action('plugins_loaded')
+#4 C:\Users\Admin\Local Sites\reytaldigital\app\public\wp-config.php(110): require_once('C:\\Users\\Admin\\...')
+#5 C:\Users\Admin\Local Sites\reytaldigital\app\public\wp-load.php(50): require_once('C:\\Users\\Admin\\...')
+#6 C:\Users\Admin\Local Sites\reytaldigital\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\Admin\\...')
+#7 C:\Users\Admin\Local Sites\reytaldigital\app\public\wp-admin\plugins.php(10): require_once('C:\\Users\\Admin\\...')
+#8 {main}
+  thrown in C:\Users\Admin\Local Sites\reytaldigital\app\public\wp-content\plugins\flatsome-api-products\flatsome-api-products.php on line 68
+[01-Feb-2025 12:18:34 UTC] PHP Warning:  require_once(C:\Users\Admin\Local Sites\reytaldigital\app\public\wp-content\plugins\flatsome-api-products/includes/helpers.php): Failed to open stream: No such file or directory in C:\Users\Admin\Local Sites\reytaldigital\app\public\wp-content\plugins\flatsome-api-products\flatsome-api-products.php on line 68
+[01-Feb-2025 12:18:34 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\Admin\Local Sites\reytaldigital\app\public\wp-content\plugins\flatsome-api-products/includes/helpers.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\Admin\Local Sites\reytaldigital\app\public\wp-content\plugins\flatsome-api-products\flatsome-api-products.php:68
+Stack trace:
+#0 C:\Users\Admin\Local Sites\reytaldigital\app\public\wp-includes\class-wp-hook.php(324): Flatsome_Api_Products->init('')
+#1 C:\Users\Admin\Local Sites\reytaldigital\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\Admin\Local Sites\reytaldigital\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\Admin\Local Sites\reytaldigital\app\public\wp-settings.php(559): do_action('plugins_loaded')
+#4 C:\Users\Admin\Local Sites\reytaldigital\app\public\wp-config.php(110): require_once('C:\\Users\\Admin\\...')
+#5 C:\Users\Admin\Local Sites\reytaldigital\app\public\wp-load.php(50): require_once('C:\\Users\\Admin\\...')
+#6 C:\Users\Admin\Local Sites\reytaldigital\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\Admin\\...')
+#7 C:\Users\Admin\Local Sites\reytaldigital\app\public\wp-admin\plugins.php(10): require_once('C:\\Users\\Admin\\...')
+#8 {main}
+  thrown in C:\Users\Admin\Local Sites\reytaldigital\app\public\wp-content\plugins\flatsome-api-products\flatsome-api-products.php on line 68
+[01-Feb-2025 12:40:40 UTC] PHP Parse error:  Unterminated comment starting line 315 in C:\Users\Admin\Local Sites\reytaldigital\app\public\wp-content\plugins\flatsome-api-products\includes\class-flatsome-api-helper.php on line 315

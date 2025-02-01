@@ -1,0 +1,135 @@
+/*
+Theme Name: Flatsome Child
+Description: This is a child theme for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.0
+*/
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+
+ul.sub-menu.nav-column.nav-dropdown-default.second-level {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: 0; 
+    min-width: 100%; 
+    background: white;
+    border:1px solid #bcbcbc;
+    padding: 10px;
+    opacity: 0;
+    transform: translateX(-10px);
+    margin-left: 10px;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+ul.sub-menu.nav-dropdown.nav-dropdown-default.first-level {
+    display:flex;
+    flex-direction: column;
+    background: #B4B3B3;
+    padding: unset;
+    margin: 5px;
+    border: unset;}
+
+.flex-col.hide-for-medium.flex-left.secondary-menu {
+    flex: 1;
+}
+.flex-col.hide-for-medium.flex-left.secondary-menu > ul > li {
+    width:100%;
+}
+
+.flex-col.hide-for-medium.flex-left.secondary-menu > ul > li > a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+
+.flex-col.hide-for-medium.flex-right.flex-grow.main-menu {
+    flex:3;
+}
+
+ul.sub-menu.nav-dropdown.nav-dropdown-default.secondary-menu li a {
+    border-bottom: unset;
+    text-align:center;
+}
+
+ul.sub-menu.nav-dropdown.nav-dropdown-default.secondary-menu.first-level > li {
+    width: 100%;
+}
+
+ul.sub-menu.nav-dropdown.nav-dropdown-default.first-level > li > a {
+    color: white;
+}
+.sub-menu.nav-column.nav-dropdown-default.second-level {
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.sub-menu.nav-column.nav-dropdown-default.second-level li {
+    width: calc(100% / 3 - 20px);
+}
+.secondary-menu.second-level > li > a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sub-menu.nav-dropdown.nav-dropdown-default.secondary-menu.first-level > li > a {
+    position: relative; 
+    display: flex;
+    align-items: center; 
+    padding-right: 25px;
+}
+
+.secondary-menu.second-level > li > a > span {
+    color: #777;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.sub-menu.nav-dropdown.nav-dropdown-default.secondary-menu.first-level > li > a::after {
+    content: "";
+    display: block;
+    width: 14px;
+    height: 14px;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10" width="14" height="14" fill="none" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 2 L6 5 L2 8"/></svg>');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: transform 0.3s ease;
+    pointer-events: none;
+}
+
+.sub-menu.nav-dropdown.nav-dropdown-default.secondary-menu.first-level > li:hover > a::after {
+    transform: translateY(-50%) rotate(90deg);
+}
+
+.force-flex {
+    display:flex !important;
+}
+
+.secondary-menu.second-level > li > a {
+    color: black;
+}
+
+.secondary-menu.second-level > li > a > img {
+    margin-bottom:10px
+}
+
+.secondary-menu.second-level > li > a > img {
+    width: 150px;
+    height: 150px;
+}
+
+
+@media only screen and (max-width: 48em) {
+/*************** ADD MOBILE ONLY CSS HERE  ***************/
+
+
+}
+

@@ -1,0 +1,951 @@
+********************************************************************************
+* DUPLICATOR LITE: Install-Log
+* STEP-0 START @ 08:55:52
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ ORIGINAL SERVER                        |CURRENT SERVER
+OS__________________: Linux                                 |WINNT
+PHP VERSION_________: 8.3.14                                |8.2.23
+********************************************************************************
+CURRENT SERVER INFO
+PHP_________________: 8.2.23 | SAPI: cgi-fcgi
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+ARCHITECTURE________: 64-bit
+SERVER______________: nginx/1.26.1
+DOC ROOT____________: "C:/Users/Admin/Local Sites/reytaldigital/app/public"
+REQUEST URL_________: "http://reytaldigital.local"
+********************************************************************************
+OVERWRITE PARAMS
+ *** FROM PACKAGE
+PARAM SET KEY[blogname]
+********************************************************************************
+MAINTENANCE MODE DISABLE
+INSTALLER INFO
+
+TEMPLATE____________: "base"
+SECURE MODE_________: "none"
+URL PLUGINS_________: https://dev.reytal.ee/test/wp-content/plugins
+VALIDATE ON START___: "normal"
+PATH_NEW____________: "C:/Users/Admin/Local Sites/reytaldigital/app/public"
+URL_NEW_____________: "http://reytaldigital.local"
+********************************************************************************
+ARCHIVE INFO
+
+ARCHIVE NAME________: "C:/Users/Admin/Local Sites/reytaldigital/app/public/20250128_test_[HASH]_20250128143127_archive.zip"
+ARCHIVE SIZE________: 54.25MB
+CREATED_____________: 2025-01-28 14:31:27
+WP VERSION__________: 6.7.1
+DUP VERSION_________: 1.5.11.2
+LICENSE_____________: Free version
+DB VERSION__________: 10.6.20
+DB FILE SIZE________: 9.13MB
+DB TABLES___________: 51
+DB ROWS_____________: 1174
+URL HOME____________: https://dev.reytal.ee/test
+URL CORE____________: https://dev.reytal.ee/test
+URL CONTENT_________: https://dev.reytal.ee/test/wp-content
+URL UPLOAD__________: https://dev.reytal.ee/test/wp-content/uploads
+URL PLUGINS_________: https://dev.reytal.ee/test/wp-content/plugins
+URL MU PLUGINS______: https://dev.reytal.ee/test/wp-content/mu-plugins
+URL THEMES__________: https://dev.reytal.ee/test/wp-content/themes
+PATH HOME___________: /data03/virt132050/domeenid/www.reytal.ee/dev/test
+PATH ABS____________: /data03/virt132050/domeenid/www.reytal.ee/dev/test
+PATH WPCONFIG_______: /data03/virt132050/domeenid/www.reytal.ee/dev/test
+PATH WPCONTENT______: /data03/virt132050/domeenid/www.reytal.ee/dev/test/wp-content
+PATH UPLOADS________: /data03/virt132050/domeenid/www.reytal.ee/dev/test/wp-content/uploads
+PATH PLUGINS________: /data03/virt132050/domeenid/www.reytal.ee/dev/test/wp-content/plugins
+PATH MUPLUGINS______: /data03/virt132050/domeenid/www.reytal.ee/dev/test/wp-content/mu-plugins
+PATH THEMES_________: /data03/virt132050/domeenid/www.reytal.ee/dev/test/wp-content/themes
+
+SUBSITES
+SUBSITE [ID:   1] "dev.reytal.ee/test/"
+
+PLUGINS
+PLUGIN [SLUG:classic-editor/classic-editor.php                 ][ON:true ]  Classic Editor
+PLUGIN [SLUG:duplicator/duplicator.php                         ][ON:true ]  Duplicator
+PLUGIN [SLUG:woocommerce/woocommerce.php                       ][ON:true ]  WooCommerce
+PLUGIN [SLUG:automation-by-installatron.php                    ][ON:false]  WordPress automation by Installatron
+
+********************************************************************************
+LOG-TIME[C:\Users\Admin\Local Sites\reytaldigital\app\public\dup-installer\ctrls\ctrl.base.php:227][DELTA:   2.50713]  MESSAGE:END RENDER PAGE
+LOG-TIME[C:\Users\Admin\Local Sites\reytaldigital\app\public\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[C:\Users\Admin\Local Sites\reytaldigital\app\public\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+STEP ACTION: "on-validate"
+LOG-TIME[C:\Users\Admin\Local Sites\reytaldigital\app\public\dup-installer\ctrls\ctrl.base.php:227][DELTA:   2.33438]  MESSAGE:END RENDER PAGE
+LOG-TIME[C:\Users\Admin\Local Sites\reytaldigital\app\public\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [validate] START
+START TEST "Archive Check" [CLASS: DUPX_Validation_test_archive_check]
+LOG-TIME[DELTA:   0.00006]  MESSAGE:TEST "Archive Check" RESULT: passed
+
+START TEST "Duplicator importer version" [CLASS: DUPX_Validation_test_importer_version]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Duplicator importer version" RESULT: skip
+
+START TEST "Overwrite Install" [CLASS: DUPX_Validation_test_owrinstall]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Overwrite Install" RESULT: skip
+
+START TEST "Recovery Point" [CLASS: DUPX_Validation_test_recovery]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Recovery Point" RESULT: skip
+
+START TEST "Package is Importable" [CLASS: DUPX_Validation_test_importable]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Package is Importable" RESULT: skip
+
+START TEST "REST API test" [CLASS: DUPX_Validation_test_rest_api]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "REST API test" RESULT: skip
+
+START TEST "Manual extraction detected" [CLASS: DUPX_Validation_test_manual_extraction]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Manual extraction detected" RESULT: good
+
+START TEST "Database Only" [CLASS: DUPX_Validation_test_dbonly_iswordpress]
+LOG-TIME[DELTA:   0.00011]  MESSAGE:TEST "Database Only" RESULT: skip
+
+START TEST "Package Age" [CLASS: DUPX_Validation_test_package_age]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Package Age" RESULT: good
+
+START TEST "Package Size" [CLASS: DUPX_Validation_test_package_size]
+LOG-TIME[DELTA:   0.00011]  MESSAGE:TEST "Package Size" RESULT: good
+
+START TEST "Replace PATHs in database" [CLASS: DUPX_Validation_test_replace_paths]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Replace PATHs in database" RESULT: skip
+
+START TEST "Managed hosting supported" [CLASS: DUPX_Validation_test_managed_supported]
+LOG-TIME[DELTA:   0.00019]  MESSAGE:TEST "Managed hosting supported" RESULT: skip
+
+START TEST "Siteground" [CLASS: DUPX_Validation_test_siteground]
+LOG-TIME[DELTA:   0.00029]  MESSAGE:TEST "Siteground" RESULT: skip
+
+START TEST "Addon Sites" [CLASS: DUPX_Validation_test_addon_sites]
+--------------------------------------
+PATHS MAPPING : "C:/Users/Admin/Local Sites/reytaldigital/app/public"
+--------------------------------------
+LOG-TIME[DELTA:   0.05404]  MESSAGE:TEST "Addon Sites" RESULT: good
+
+START TEST "Wordfence" [CLASS: DUPX_Validation_test_wordfence]
+LOG-TIME[DELTA:   0.00042]  MESSAGE:TEST "Wordfence" RESULT: good
+
+START TEST "Table prefix of managed hosting" [CLASS: DUPX_Validation_test_managed_tprefix]
+LOG-TIME[DELTA:   0.00012]  MESSAGE:TEST "Table prefix of managed hosting" RESULT: skip
+
+START TEST "PHP Version Mismatch" [CLASS: DUPX_Validation_test_php_version]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Version Mismatch" RESULT: good
+
+START TEST "PHP Open Base" [CLASS: DUPX_Validation_test_open_basedir]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Open Base" RESULT: good
+
+START TEST "PHP Memory Limit" [CLASS: DUPX_Validation_test_memory_limit]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "PHP Memory Limit" RESULT: good
+
+START TEST "PHP Extensions" [CLASS: DUPX_Validation_test_extensions]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Extensions" RESULT: good
+
+START TEST "PHP Mysqli" [CLASS: DUPX_Validation_test_mysql_connect]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Mysqli" RESULT: passed
+
+START TEST "PHP Tokenizer" [CLASS: DUPX_Validation_test_tokenizer]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Tokenizer" RESULT: passed
+
+START TEST "PHP Timeout" [CLASS: DUPX_Validation_test_timeout]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Timeout" RESULT: good
+
+START TEST "Disk Space" [CLASS: DUPX_Validation_test_disk_space]
+LOG-TIME[DELTA:   0.00687]  MESSAGE:TEST "Disk Space" RESULT: good
+
+START TEST "Permissions: General" [CLASS: DUPX_Validation_test_iswritable]
+LOG-TIME[DELTA:   0.02746]  MESSAGE:TEST "Permissions: General" RESULT: passed
+
+START TEST "Permissions: Configs Files " [CLASS: DUPX_Validation_test_iswritable_configs]
+LOG-TIME[DELTA:   0.00059]  MESSAGE:TEST "Permissions: Configs Files " RESULT: passed
+
+START TEST "Host Name" [CLASS: DUPX_Validation_test_db_host_name]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Host Name" RESULT: passed
+
+START TEST "Host Connection" [CLASS: DUPX_Validation_test_db_connection]
+LOG-TIME[DELTA:   0.01260]  MESSAGE:TEST "Host Connection" RESULT: passed
+
+START TEST "Database Version" [CLASS: DUPX_Validation_test_db_version]
+LOG-TIME[DELTA:   0.00444]  MESSAGE:TEST "Database Version" RESULT: soft warning
+
+START TEST "Create New Database" [CLASS: DUPX_Validation_test_db_create]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Create New Database" RESULT: skip
+
+START TEST "Database Engine Support" [CLASS: DUPX_Validation_test_db_supported_engine]
+LOG-TIME[DELTA:   0.00035]  MESSAGE:TEST "Database Engine Support" RESULT: passed
+
+START TEST "Database GTID Mode" [CLASS: DUPX_Validation_test_db_gtid_mode]
+LOG-TIME[DELTA:   0.00020]  MESSAGE:TEST "Database GTID Mode" RESULT: passed
+
+START TEST "Privileges: User Visibility" [CLASS: DUPX_Validation_test_db_visibility]
+LOG-TIME[DELTA:   0.00018]  MESSAGE:TEST "Privileges: User Visibility" RESULT: passed
+
+START TEST "Manual Table Check" [CLASS: DUPX_Validation_test_db_manual_tabels_count]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Manual Table Check" RESULT: skip
+
+START TEST "Multiple WordPress Installs" [CLASS: DUPX_Validation_test_db_multiple_wp_installs]
+LOG-TIME[DELTA:   0.00152]  MESSAGE:TEST "Multiple WordPress Installs" RESULT: passed
+
+START TEST "Privileges: User Resources" [CLASS: DUPX_Validation_test_db_user_resources]
+LOG-TIME[DELTA:   0.00049]  MESSAGE:TEST "Privileges: User Resources" RESULT: passed
+
+START TEST "Privileges: User Table Access" [CLASS: DUPX_Validation_test_db_user_perms]
+LOG-TIME[DELTA:   0.05739]  MESSAGE:TEST "Privileges: User Table Access" RESULT: passed
+
+START TEST "Privileges: 'Show Variables' Query" [CLASS: DUPX_Validation_test_db_custom_queries]
+LOG-TIME[DELTA:   0.00116]  MESSAGE:TEST "Privileges: 'Show Variables' Query" RESULT: passed
+
+START TEST "Source Database Triggers" [CLASS: DUPX_Validation_test_db_triggers]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Source Database Triggers" RESULT: passed
+
+START TEST "Character Set and Collation Support" [CLASS: DUPX_Validation_test_db_supported_default_charset]
+LOG-TIME[DELTA:   0.00257]  MESSAGE:TEST "Character Set and Collation Support" RESULT: soft warning
+
+START TEST "Character Set and  Collation Capability" [CLASS: DUPX_Validation_test_db_supported_charset]
+LOG-TIME[DELTA:   0.00005]  MESSAGE:TEST "Character Set and  Collation Capability" RESULT: passed
+
+START TEST "Tables Case Sensitivity" [CLASS: DUPX_Validation_test_db_case_sensitive_tables]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Tables Case Sensitivity" RESULT: skip
+
+START TEST "Tables Flagged for Removal or Backup" [CLASS: DUPX_Validation_test_db_affected_tables]
+LOG-TIME[DELTA:   0.00157]  MESSAGE:TEST "Tables Flagged for Removal or Backup" RESULT: passed
+
+START TEST "Prefix too long" [CLASS: DUPX_Validation_test_db_prefix_too_long]
+LOG-TIME[DELTA:   0.00009]  MESSAGE:TEST "Prefix too long" RESULT: passed
+
+START TEST "Database cleanup" [CLASS: DUPX_Validation_test_db_cleanup]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Database cleanup" RESULT: skip
+
+
+CTRL PARAMS AFTER VALIDATION
+DEFAULT DB_CHARSET [utf8] isn't valid, update DB_CHARSET to utf8mb3 and DB_COLLATE set empty
+AJAX ACTION [validate] SUCCESS
+-------------------------
+
+LOG-TIME[C:\Users\Admin\Local Sites\reytaldigital\app\public\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [proceed_confirm_dialog] START
+AJAX ACTION [proceed_confirm_dialog] SUCCESS
+-------------------------
+
+LOG-TIME[C:\Users\Admin\Local Sites\reytaldigital\app\public\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[C:\Users\Admin\Local Sites\reytaldigital\app\public\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+INITIALIZE FILTERS
+--------------------------------------
+PATHS MAPPING : "C:/Users/Admin/Local Sites/reytaldigital/app/public"
+--------------------------------------
+********************************************************************************
+* DUPLICATOR LITE: Install-Log
+* STEP-1 START @ 08:56:56
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+INSTALL TYPE________: single site
+BLOG NAME___________: "Test"
+HOME URL NEW________: "http://reytaldigital.local"
+SITE URL NEW________: "http://reytaldigital.local"
+CONTENT URL NEW_____: "http://reytaldigital.local/wp-content"
+UPLOAD URL NEW______: "http://reytaldigital.local/wp-content/uploads"
+PLUGINS URL NEW_____: "http://reytaldigital.local/wp-content/plugins"
+MUPLUGINS URL NEW___: "http://reytaldigital.local/wp-content/mu-plugins"
+HOME PATH NEW_______: "C:/Users/Admin/Local Sites/reytaldigital/app/public"
+SITE PATH NEW_______: "C:/Users/Admin/Local Sites/reytaldigital/app/public"
+CONTENT PATH NEW____: "C:/Users/Admin/Local Sites/reytaldigital/app/public/wp-content"
+UPLOAD PATH NEW_____: "C:/Users/Admin/Local Sites/reytaldigital/app/public/wp-content/uploads"
+PLUGINS PATH NEW____: "C:/Users/Admin/Local Sites/reytaldigital/app/public/wp-content/plugins"
+MUPLUGINS PATH NEW__: "C:/Users/Admin/Local Sites/reytaldigital/app/public/wp-content/mu-plugins"
+ARCHIVE ACTION______: "donothing"
+SKIP WP FILES_______: "none"
+ARCHIVE ENGINE______: "ziparchivechunking"
+SET DIR PERMS_______: false
+DIR PERMS VALUE_____: 0755
+SET FILE PERMS______: false
+FILE PERMS VALUE____: 0644
+SAFE MODE___________: 0
+LOGGING_____________: 1
+ZIP THROTTLING______: false
+WP CONFIG___________: "modify"
+HTACCESS CONFIG_____: "new"
+OTHER CONFIG________: "new"
+FILE TIME___________: "current"
+********************************************************************************
+
+REMOVE FILTERS
+	DIR : "C:/Users/Admin/Local Sites/reytaldigital/app/public/dup-installer"
+	FILE: "C:/Users/Admin/Local Sites/reytaldigital/app/public/20250128_test_[HASH]_20250128143127_installer-backup.php"
+	FILE: "C:/Users/Admin/Local Sites/reytaldigital/app/public/20250128_test_[HASH]_20250128143127_archive.zip"
+	FILE: "C:/Users/Admin/Local Sites/reytaldigital/app/public/installer.php"
+	FILE: "C:/Users/Admin/Local Sites/reytaldigital/app/public/dup-installer-bootlog__81f730c-28143127.txt"
+EXTRACTION FILTERS
+	DIR : "dup-installer"
+	FILE: "20250128_test_[HASH]_20250128143127_installer-backup.php"
+--------------------------------------
+
+
+EXTRACTION: ZIP CHUNKING >>> START
+MAINTENANCE MODE ENABLE
+BEFORE EXTRACION ACTIONS
+
+*** RESET CONFIG FILES IN CURRENT HOSTING >>> START
+
+*** RESET CONFIG FILES IN CURRENT HOSTING >>> END
+MAINTENANCE MODE ENABLE
+
+*** CREATE FOLDER AND PERMISSION PREPARE
+FOLDER PREPARE DONE
+ARCHIVE OFFSET 0
+CHUNK COMPLETE - RUNTIME: 5.0062 sec. - Files processed: 3,040 of 11,973
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\Users\Admin\Local Sites\reytaldigital\app\public\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 3040
+--------------------------------------
+PATHS MAPPING : "C:/Users/Admin/Local Sites/reytaldigital/app/public"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0106 sec. - Files processed: 4,904 of 11,973
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\Users\Admin\Local Sites\reytaldigital\app\public\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 4904
+--------------------------------------
+PATHS MAPPING : "C:/Users/Admin/Local Sites/reytaldigital/app/public"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0082 sec. - Files processed: 6,868 of 11,973
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\Users\Admin\Local Sites\reytaldigital\app\public\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 6868
+--------------------------------------
+PATHS MAPPING : "C:/Users/Admin/Local Sites/reytaldigital/app/public"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0067 sec. - Files processed: 8,995 of 11,973
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\Users\Admin\Local Sites\reytaldigital\app\public\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 8995
+--------------------------------------
+PATHS MAPPING : "C:/Users/Admin/Local Sites/reytaldigital/app/public"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0188 sec. - Files processed: 10,216 of 11,973
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\Users\Admin\Local Sites\reytaldigital\app\public\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 10216
+--------------------------------------
+PATHS MAPPING : "C:/Users/Admin/Local Sites/reytaldigital/app/public"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0154 sec. - Files processed: 11,829 of 11,973
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\Users\Admin\Local Sites\reytaldigital\app\public\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 11829
+--------------------------------------
+PATHS MAPPING : "C:/Users/Admin/Local Sites/reytaldigital/app/public"
+--------------------------------------
+FILE EXTRACTION: done processing last file in list of 12580
+
+EXTRACTION: ZIP CHUNKING >>> DONE
+
+EXTRACTION COMPLETE @ 08:57:28 - RUNTIME: 31.9797 sec. - Files processed: 11,973 of 11,973
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\Users\Admin\Local Sites\reytaldigital\app\public\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+ADD PREFIX META MAP ID 0 q7xs_
+
+
+
+********************************************************************************
+* DUPLICATOR LITE: INSTALL-LOG
+* STEP-2 START @ 08:57:28
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+DB ENGINE___________: "chunk"
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+USER MODE___________: "overwrite"
+TABLE PREFIX________: "q7xs_"
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8mb3"
+COLLATE_____________: ""
+CUNKING_____________: true
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTIONS___________: true
+REMOVE DEFINER______: false
+SPLIT CREATES_______: true
+--------------------------------------
+TABLES
+--------------------------------------
+TABLE "q7xs_actionscheduler_actions"____________________[ROWS:       7] [EXTRACT|REPLACE] [INST NAME: q7xs_actionscheduler_actions]
+TABLE "q7xs_actionscheduler_claims"_____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: q7xs_actionscheduler_claims]
+TABLE "q7xs_actionscheduler_groups"_____________________[ROWS:       3] [EXTRACT|REPLACE] [INST NAME: q7xs_actionscheduler_groups]
+TABLE "q7xs_actionscheduler_logs"_______________________[ROWS:      19] [EXTRACT|REPLACE] [INST NAME: q7xs_actionscheduler_logs]
+TABLE "q7xs_commentmeta"________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: q7xs_commentmeta]
+TABLE "q7xs_comments"___________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: q7xs_comments]
+TABLE "q7xs_duplicator_packages"________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: q7xs_duplicator_packages]
+TABLE "q7xs_links"______________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: q7xs_links]
+TABLE "q7xs_options"____________________________________[ROWS:     429] [EXTRACT|REPLACE] [INST NAME: q7xs_options]
+TABLE "q7xs_postmeta"___________________________________[ROWS:     287] [EXTRACT|REPLACE] [INST NAME: q7xs_postmeta]
+TABLE "q7xs_posts"______________________________________[ROWS:      98] [EXTRACT|REPLACE] [INST NAME: q7xs_posts]
+TABLE "q7xs_termmeta"___________________________________[ROWS:      44] [EXTRACT|REPLACE] [INST NAME: q7xs_termmeta]
+TABLE "q7xs_terms"______________________________________[ROWS:      27] [EXTRACT|REPLACE] [INST NAME: q7xs_terms]
+TABLE "q7xs_term_relationships"_________________________[ROWS:      23] [EXTRACT|REPLACE] [INST NAME: q7xs_term_relationships]
+TABLE "q7xs_term_taxonomy"______________________________[ROWS:      27] [EXTRACT|REPLACE] [INST NAME: q7xs_term_taxonomy]
+TABLE "q7xs_usermeta"___________________________________[ROWS:      49] [EXTRACT|REPLACE] [INST NAME: q7xs_usermeta]
+TABLE "q7xs_users"______________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: q7xs_users]
+TABLE "q7xs_wc_admin_notes"_____________________________[ROWS:      58] [EXTRACT|REPLACE] [INST NAME: q7xs_wc_admin_notes]
+TABLE "q7xs_wc_admin_note_actions"______________________[ROWS:      86] [EXTRACT|REPLACE] [INST NAME: q7xs_wc_admin_note_actions]
+TABLE "q7xs_wc_category_lookup"_________________________[ROWS:      17] [EXTRACT|REPLACE] [INST NAME: q7xs_wc_category_lookup]
+TABLE "q7xs_wc_customer_lookup"_________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: q7xs_wc_customer_lookup]
+TABLE "q7xs_wc_download_log"____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: q7xs_wc_download_log]
+TABLE "q7xs_wc_orders"__________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: q7xs_wc_orders]
+TABLE "q7xs_wc_orders_meta"_____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: q7xs_wc_orders_meta]
+TABLE "q7xs_wc_order_addresses"_________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: q7xs_wc_order_addresses]
+TABLE "q7xs_wc_order_coupon_lookup"_____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: q7xs_wc_order_coupon_lookup]
+TABLE "q7xs_wc_order_operational_data"__________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: q7xs_wc_order_operational_data]
+TABLE "q7xs_wc_order_product_lookup"____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: q7xs_wc_order_product_lookup]
+TABLE "q7xs_wc_order_stats"_____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: q7xs_wc_order_stats]
+TABLE "q7xs_wc_order_tax_lookup"________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: q7xs_wc_order_tax_lookup]
+TABLE "q7xs_wc_product_attributes_lookup"_______________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: q7xs_wc_product_attributes_lookup]
+TABLE "q7xs_wc_product_download_directories"____________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: q7xs_wc_product_download_directories]
+TABLE "q7xs_wc_product_meta_lookup"_____________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: q7xs_wc_product_meta_lookup]
+TABLE "q7xs_wc_rate_limits"_____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: q7xs_wc_rate_limits]
+TABLE "q7xs_wc_reserved_stock"__________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: q7xs_wc_reserved_stock]
+TABLE "q7xs_wc_tax_rate_classes"________________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: q7xs_wc_tax_rate_classes]
+TABLE "q7xs_wc_webhooks"________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: q7xs_wc_webhooks]
+TABLE "q7xs_woocommerce_api_keys"_______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: q7xs_woocommerce_api_keys]
+TABLE "q7xs_woocommerce_attribute_taxonomies"___________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: q7xs_woocommerce_attribute_taxonomies]
+TABLE "q7xs_woocommerce_downloadable_product_permissions"[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: q7xs_woocommerce_downloadable_product_permissions]
+TABLE "q7xs_woocommerce_log"____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: q7xs_woocommerce_log]
+TABLE "q7xs_woocommerce_order_itemmeta"_________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: q7xs_woocommerce_order_itemmeta]
+TABLE "q7xs_woocommerce_order_items"____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: q7xs_woocommerce_order_items]
+TABLE "q7xs_woocommerce_payment_tokenmeta"______________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: q7xs_woocommerce_payment_tokenmeta]
+TABLE "q7xs_woocommerce_payment_tokens"_________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: q7xs_woocommerce_payment_tokens]
+TABLE "q7xs_woocommerce_sessions"_______________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: q7xs_woocommerce_sessions]
+TABLE "q7xs_woocommerce_shipping_zones"_________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: q7xs_woocommerce_shipping_zones]
+TABLE "q7xs_woocommerce_shipping_zone_locations"________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: q7xs_woocommerce_shipping_zone_locations]
+TABLE "q7xs_woocommerce_shipping_zone_methods"__________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: q7xs_woocommerce_shipping_zone_methods]
+TABLE "q7xs_woocommerce_tax_rates"______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: q7xs_woocommerce_tax_rates]
+TABLE "q7xs_woocommerce_tax_rate_locations"_____________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: q7xs_woocommerce_tax_rate_locations]
+********************************************************************************
+
+DATABASE ERROR: mysqli_set_charset "utf8mb3" MSG: Invalid character set was provided
+DATABASE ERROR: mysqli_set_charset "utf8mb3" MSG: Invalid character set was provided
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 8.0.35 -- Build Server: 10.6.20
+FILE SIZE:	dup-database__[HASH].sql (5.52MB)
+TIMEOUT:	5000
+MAXPACK:	16777216
+SQLMODE-GLOBAL:	ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+SQLMODE-SESSION:NO_AUTO_VALUE_ON_ZERO
+DROP ALL TABLES
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+QUERY FIXES
+GLOBAL RULES ADDED: PROC AND VIEWS
+
+QUERY FIXES GLOBAL RULES
+	SEARCH  => /^(\s*(?:\/\*!\d+\s)?\s*(?:CREATE.+)?DEFINER\s*=)([^\*\s]+)(.*)$/m
+	REPLACE => $1`root`@`localhost`$3
+
+	SEARCH  => /^(\s*CREATE.+(?:PROCEDURE|FUNCTION)[\s\S]*)(BEGIN)([\s\S]*)$/
+	REPLACE => $1SQL SECURITY INVOKER
+$2$3
+
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 0
+DATABASE ERROR: mysqli_set_charset "utf8mb3" MSG: Invalid character set was provided
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	442
+
+TABLES ROWS IN DATABASE AFTER EXTRACTION
+
+TABLE "q7xs_actionscheduler_actions"____________________[ROWS:     7]
+TABLE "q7xs_actionscheduler_claims"_____________________[ROWS:     0]
+TABLE "q7xs_actionscheduler_groups"_____________________[ROWS:     3]
+TABLE "q7xs_actionscheduler_logs"_______________________[ROWS:    19]
+TABLE "q7xs_commentmeta"________________________________[ROWS:     0]
+TABLE "q7xs_comments"___________________________________[ROWS:     0]
+TABLE "q7xs_duplicator_packages"________________________[ROWS:     1]
+TABLE "q7xs_links"______________________________________[ROWS:     0]
+TABLE "q7xs_options"____________________________________[ROWS:   429]
+TABLE "q7xs_postmeta"___________________________________[ROWS:   287]
+TABLE "q7xs_posts"______________________________________[ROWS:    98]
+TABLE "q7xs_term_relationships"_________________________[ROWS:    23]
+TABLE "q7xs_term_taxonomy"______________________________[ROWS:    27]
+TABLE "q7xs_termmeta"___________________________________[ROWS:    44]
+TABLE "q7xs_terms"______________________________________[ROWS:    27]
+TABLE "q7xs_usermeta"___________________________________[ROWS:    49]
+TABLE "q7xs_users"______________________________________[ROWS:     1]
+TABLE "q7xs_wc_admin_note_actions"______________________[ROWS:    86]
+TABLE "q7xs_wc_admin_notes"_____________________________[ROWS:    58]
+TABLE "q7xs_wc_category_lookup"_________________________[ROWS:    17]
+TABLE "q7xs_wc_customer_lookup"_________________________[ROWS:     0]
+TABLE "q7xs_wc_download_log"____________________________[ROWS:     0]
+TABLE "q7xs_wc_order_addresses"_________________________[ROWS:     0]
+TABLE "q7xs_wc_order_coupon_lookup"_____________________[ROWS:     0]
+TABLE "q7xs_wc_order_operational_data"__________________[ROWS:     0]
+TABLE "q7xs_wc_order_product_lookup"____________________[ROWS:     0]
+TABLE "q7xs_wc_order_stats"_____________________________[ROWS:     0]
+TABLE "q7xs_wc_order_tax_lookup"________________________[ROWS:     0]
+TABLE "q7xs_wc_orders"__________________________________[ROWS:     0]
+TABLE "q7xs_wc_orders_meta"_____________________________[ROWS:     0]
+TABLE "q7xs_wc_product_attributes_lookup"_______________[ROWS:     0]
+TABLE "q7xs_wc_product_download_directories"____________[ROWS:     2]
+TABLE "q7xs_wc_product_meta_lookup"_____________________[ROWS:     1]
+TABLE "q7xs_wc_rate_limits"_____________________________[ROWS:     0]
+TABLE "q7xs_wc_reserved_stock"__________________________[ROWS:     0]
+TABLE "q7xs_wc_tax_rate_classes"________________________[ROWS:     2]
+TABLE "q7xs_wc_webhooks"________________________________[ROWS:     0]
+TABLE "q7xs_woocommerce_api_keys"_______________________[ROWS:     0]
+TABLE "q7xs_woocommerce_attribute_taxonomies"___________[ROWS:     0]
+TABLE "q7xs_woocommerce_downloadable_product_permissions"[ROWS:     0]
+TABLE "q7xs_woocommerce_log"____________________________[ROWS:     0]
+TABLE "q7xs_woocommerce_order_itemmeta"_________________[ROWS:     0]
+TABLE "q7xs_woocommerce_order_items"____________________[ROWS:     0]
+TABLE "q7xs_woocommerce_payment_tokenmeta"______________[ROWS:     0]
+TABLE "q7xs_woocommerce_payment_tokens"_________________[ROWS:     0]
+TABLE "q7xs_woocommerce_sessions"_______________________[ROWS:     1]
+TABLE "q7xs_woocommerce_shipping_zone_locations"________[ROWS:     0]
+TABLE "q7xs_woocommerce_shipping_zone_methods"__________[ROWS:     0]
+TABLE "q7xs_woocommerce_shipping_zones"_________________[ROWS:     0]
+TABLE "q7xs_woocommerce_tax_rate_locations"_____________[ROWS:     0]
+TABLE "q7xs_woocommerce_tax_rates"______________________[ROWS:     0]
+
+INSERT DATA RUNTIME: 3.7653 sec.
+STEP-2 COMPLETE @ 08:57:32 - RUNTIME: 3.7656 sec.
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[C:\Users\Admin\Local Sites\reytaldigital\app\public\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [webupdate] START
+
+====================================
+SET SEARCH AND REPLACE LIST INSTALL TYPE single site
+====================================
+SEARCH ITEM[T:path |P:12] SEARCH: /data03/virt132050/domeenid/www.reytal.ee/dev/test REPLACE: C:/Users/Admin/Local Sites/reytaldigital/app/public [SCOPE: ALL]
+SEARCH ITEM[T:urlnd|P:12] SEARCH: https://dev.reytal.ee/test REPLACE: http://reytaldigital.local [SCOPE: ALL]
+CHUNK LOAD DATA: IS NULL 
+CHUNK ACTION: CURRENT [start][][]
+DATABASE ERROR: mysqli_set_charset "utf8mb3" MSG: Invalid character set was provided
+
+
+********************************************************************************
+DUPLICATOR LITE: INSTALL-LOG
+STEP-3 START @ 08:57:32
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+SKIP PATH REPLACE_____: false
+DISALLOW_FILE_EDIT____: [value = ], [inWpConfig = ]
+DISALLOW_FILE_MODS____: [value = ], [inWpConfig = ]
+AUTOSAVE_INTERVAL_____: [value = 60], [inWpConfig = ]
+WP_POST_REVISIONS_____: [value = 1], [inWpConfig = ]
+FORCE_SSL_ADMIN_______: [value = 1], [inWpConfig = ]
+WP_AUTO_UPDATE_CORE___: [value = false], [inWpConfig = ]
+WP_CACHE______________: [value = ], [inWpConfig = ]
+WPCACHEHOME___________: [value = /], [inWpConfig = ]
+WP_DEBUG______________: [value = ], [inWpConfig = 1]
+WP_DEBUG_LOG__________: [value = ], [inWpConfig = ]
+WP_DEBUG_DISPLAY______: [value = 1], [inWpConfig = ]
+WP_DISABLE_FATAL_ERROR_HANDLER: [value = ], [inWpConfig = ]
+SCRIPT_DEBUG__________: [value = ], [inWpConfig = ]
+CONCATENATE_SCRIPTS___: [value = ], [inWpConfig = ]
+SAVEQUERIES___________: [value = ], [inWpConfig = ]
+ALTERNATE_WP_CRON_____: [value = ], [inWpConfig = ]
+DISABLE_WP_CRON_______: [value = ], [inWpConfig = ]
+WP_CRON_LOCK_TIMEOUT__: [value = 60], [inWpConfig = ]
+COOKIE_DOMAIN_________: [value = ], [inWpConfig = ]
+WP_MEMORY_LIMIT_______: [value = 40M], [inWpConfig = ]
+WP_MAX_MEMORY_LIMIT___: [value = 1024M], [inWpConfig = ]
+WP_TEMP_DIR___________: [value = C:/Users/Admin/Local Sites/reytaldigital/app/public/wp-content/uploads], [inWpConfig = 1]
+********************************************************************************
+
+********************************************************************************
+CHUNK PARAMS:
+maxIteration__________: 0
+timeOut_______________: 5000
+throttling____________: 2
+rowsPerPage___________: 1000
+********************************************************************************
+
+CHUNK ACTION: CURRENT [cleanup_trans][][]
+[PHP ERR][E_WARNING] MSG:foreach() argument must be of type array|object, string given [CODE:2|FILE:C:\Users\Admin\Local Sites\reytaldigital\app\public\dup-installer\src\Core\Deploy\Database\DbCleanup.php|LINE:95]
+CLEAN OPTIONS [q7xs_options]
+	`option_name` = "duplicator_plugin_data_stats"
+	`option_name` LIKE "\_transient%"
+	`option_name` LIKE "\_site\_transient%"
+DATABASE OPTIONS DELETED [ROWS:   100]
+CHUNK ACTION: CURRENT [cleanup_extra][][]
+CLEANUP EXTRA
+	- SKIP DROP VIEWS
+	- SKIP DROP PROCS
+	- SKIP DROP FUNCS
+CHUNK ACTION: CURRENT [cleanup_packages][][]
+EMPTY PACKAGES TABLE
+CLEAN PACKAGES
+DATABASE PACKAGE DELETED [ROWS:     1]
+CHUNK ACTION: CURRENT [init][][]
+
+EVALUATE TABLE: "q7xs_actionscheduler_actions"____________________[ROWS:     7][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/data03/virt132050/domeenid/www.reytal.ee/dev/test" => "C:/Users/Admin/Local Sites/reytaldigital/app/public"
+	SEARCH[urlnd]  2:"https://dev.reytal.ee/test" ======================> "http://reytaldigital.local"
+	CHUNK ACTION: CURRENT [search_replace][q7xs_actionscheduler_actions][0]
+
+EVALUATE TABLE: "q7xs_actionscheduler_claims"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "q7xs_actionscheduler_groups"_____________________[ROWS:     3][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/data03/virt132050/domeenid/www.reytal.ee/dev/test" => "C:/Users/Admin/Local Sites/reytaldigital/app/public"
+	SEARCH[urlnd]  2:"https://dev.reytal.ee/test" ======================> "http://reytaldigital.local"
+	CHUNK ACTION: CURRENT [search_replace][q7xs_actionscheduler_groups][0]
+
+EVALUATE TABLE: "q7xs_actionscheduler_logs"_______________________[ROWS:    19][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/data03/virt132050/domeenid/www.reytal.ee/dev/test" => "C:/Users/Admin/Local Sites/reytaldigital/app/public"
+	SEARCH[urlnd]  2:"https://dev.reytal.ee/test" ======================> "http://reytaldigital.local"
+	CHUNK ACTION: CURRENT [search_replace][q7xs_actionscheduler_logs][0]
+
+EVALUATE TABLE: "q7xs_commentmeta"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "q7xs_comments"___________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "q7xs_duplicator_packages"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "q7xs_links"______________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "q7xs_options"____________________________________[ROWS:   329][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/data03/virt132050/domeenid/www.reytal.ee/dev/test" => "C:/Users/Admin/Local Sites/reytaldigital/app/public"
+	SEARCH[urlnd]  2:"https://dev.reytal.ee/test" ======================> "http://reytaldigital.local"
+	CHUNK ACTION: CURRENT [search_replace][q7xs_options][0]
+
+EVALUATE TABLE: "q7xs_postmeta"___________________________________[ROWS:   287][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/data03/virt132050/domeenid/www.reytal.ee/dev/test" => "C:/Users/Admin/Local Sites/reytaldigital/app/public"
+	SEARCH[urlnd]  2:"https://dev.reytal.ee/test" ======================> "http://reytaldigital.local"
+	CHUNK ACTION: CURRENT [search_replace][q7xs_postmeta][0]
+
+EVALUATE TABLE: "q7xs_posts"______________________________________[ROWS:    98][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/data03/virt132050/domeenid/www.reytal.ee/dev/test" => "C:/Users/Admin/Local Sites/reytaldigital/app/public"
+	SEARCH[urlnd]  2:"https://dev.reytal.ee/test" ======================> "http://reytaldigital.local"
+	CHUNK ACTION: CURRENT [search_replace][q7xs_posts][0]
+
+EVALUATE TABLE: "q7xs_termmeta"___________________________________[ROWS:    44][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/data03/virt132050/domeenid/www.reytal.ee/dev/test" => "C:/Users/Admin/Local Sites/reytaldigital/app/public"
+	SEARCH[urlnd]  2:"https://dev.reytal.ee/test" ======================> "http://reytaldigital.local"
+	CHUNK ACTION: CURRENT [search_replace][q7xs_termmeta][0]
+
+EVALUATE TABLE: "q7xs_terms"______________________________________[ROWS:    27][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/data03/virt132050/domeenid/www.reytal.ee/dev/test" => "C:/Users/Admin/Local Sites/reytaldigital/app/public"
+	SEARCH[urlnd]  2:"https://dev.reytal.ee/test" ======================> "http://reytaldigital.local"
+	CHUNK ACTION: CURRENT [search_replace][q7xs_terms][0]
+
+EVALUATE TABLE: "q7xs_term_relationships"_________________________[ROWS:    23][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "q7xs_term_taxonomy"______________________________[ROWS:    27][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/data03/virt132050/domeenid/www.reytal.ee/dev/test" => "C:/Users/Admin/Local Sites/reytaldigital/app/public"
+	SEARCH[urlnd]  2:"https://dev.reytal.ee/test" ======================> "http://reytaldigital.local"
+	CHUNK ACTION: CURRENT [search_replace][q7xs_term_taxonomy][0]
+
+EVALUATE TABLE: "q7xs_usermeta"___________________________________[ROWS:    49][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/data03/virt132050/domeenid/www.reytal.ee/dev/test" => "C:/Users/Admin/Local Sites/reytaldigital/app/public"
+	SEARCH[urlnd]  2:"https://dev.reytal.ee/test" ======================> "http://reytaldigital.local"
+	CHUNK ACTION: CURRENT [search_replace][q7xs_usermeta][0]
+
+EVALUATE TABLE: "q7xs_users"______________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/data03/virt132050/domeenid/www.reytal.ee/dev/test" => "C:/Users/Admin/Local Sites/reytaldigital/app/public"
+	SEARCH[urlnd]  2:"https://dev.reytal.ee/test" ======================> "http://reytaldigital.local"
+	CHUNK ACTION: CURRENT [search_replace][q7xs_users][0]
+
+EVALUATE TABLE: "q7xs_wc_admin_notes"_____________________________[ROWS:    58][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/data03/virt132050/domeenid/www.reytal.ee/dev/test" => "C:/Users/Admin/Local Sites/reytaldigital/app/public"
+	SEARCH[urlnd]  2:"https://dev.reytal.ee/test" ======================> "http://reytaldigital.local"
+	CHUNK ACTION: CURRENT [search_replace][q7xs_wc_admin_notes][0]
+
+EVALUATE TABLE: "q7xs_wc_admin_note_actions"______________________[ROWS:    86][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/data03/virt132050/domeenid/www.reytal.ee/dev/test" => "C:/Users/Admin/Local Sites/reytaldigital/app/public"
+	SEARCH[urlnd]  2:"https://dev.reytal.ee/test" ======================> "http://reytaldigital.local"
+	CHUNK ACTION: CURRENT [search_replace][q7xs_wc_admin_note_actions][0]
+
+EVALUATE TABLE: "q7xs_wc_category_lookup"_________________________[ROWS:    17][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "q7xs_wc_customer_lookup"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "q7xs_wc_download_log"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "q7xs_wc_orders"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "q7xs_wc_orders_meta"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "q7xs_wc_order_addresses"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "q7xs_wc_order_coupon_lookup"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "q7xs_wc_order_operational_data"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "q7xs_wc_order_product_lookup"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "q7xs_wc_order_stats"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "q7xs_wc_order_tax_lookup"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "q7xs_wc_product_attributes_lookup"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "q7xs_wc_product_download_directories"____________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/data03/virt132050/domeenid/www.reytal.ee/dev/test" => "C:/Users/Admin/Local Sites/reytaldigital/app/public"
+	SEARCH[urlnd]  2:"https://dev.reytal.ee/test" ======================> "http://reytaldigital.local"
+	CHUNK ACTION: CURRENT [search_replace][q7xs_wc_product_download_directories][0]
+
+EVALUATE TABLE: "q7xs_wc_product_meta_lookup"_____________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/data03/virt132050/domeenid/www.reytal.ee/dev/test" => "C:/Users/Admin/Local Sites/reytaldigital/app/public"
+	SEARCH[urlnd]  2:"https://dev.reytal.ee/test" ======================> "http://reytaldigital.local"
+	CHUNK ACTION: CURRENT [search_replace][q7xs_wc_product_meta_lookup][0]
+
+EVALUATE TABLE: "q7xs_wc_rate_limits"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "q7xs_wc_reserved_stock"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "q7xs_wc_tax_rate_classes"________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/data03/virt132050/domeenid/www.reytal.ee/dev/test" => "C:/Users/Admin/Local Sites/reytaldigital/app/public"
+	SEARCH[urlnd]  2:"https://dev.reytal.ee/test" ======================> "http://reytaldigital.local"
+	CHUNK ACTION: CURRENT [search_replace][q7xs_wc_tax_rate_classes][0]
+
+EVALUATE TABLE: "q7xs_wc_webhooks"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "q7xs_woocommerce_api_keys"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "q7xs_woocommerce_attribute_taxonomies"___________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "q7xs_woocommerce_downloadable_product_permissions"[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "q7xs_woocommerce_log"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "q7xs_woocommerce_order_itemmeta"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "q7xs_woocommerce_order_items"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "q7xs_woocommerce_payment_tokenmeta"______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "q7xs_woocommerce_payment_tokens"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "q7xs_woocommerce_sessions"_______________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/data03/virt132050/domeenid/www.reytal.ee/dev/test" => "C:/Users/Admin/Local Sites/reytaldigital/app/public"
+	SEARCH[urlnd]  2:"https://dev.reytal.ee/test" ======================> "http://reytaldigital.local"
+	CHUNK ACTION: CURRENT [search_replace][q7xs_woocommerce_sessions][0]
+
+EVALUATE TABLE: "q7xs_woocommerce_shipping_zones"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "q7xs_woocommerce_shipping_zone_locations"________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "q7xs_woocommerce_shipping_zone_methods"__________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "q7xs_woocommerce_tax_rates"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "q7xs_woocommerce_tax_rate_locations"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+--------------------------------------
+SCANNED:	Tables:51 	|	 Rows:1041 	|	 Cells:7360 
+UPDATED:	Tables:5 	|	 Rows:137 	|	 Cells:175 
+ERRORS:		0 
+RUNTIME:	1.323700 sec
+CHUNK ACTION: CURRENT [rem_maintenance][][]
+
+====================================
+REMOVE MAINTENANCE MODE
+====================================
+MAINTENANCE MODE DISABLE
+CHUNK ACTION: CURRENT [config_update][][]
+SET CONFIG FILES
+Retained original entry wpconfig target:C:/Users/Admin/Local Sites/reytaldigital/app/public/wp-config.php
+New htaccess file created:C:/Users/Admin/Local Sites/reytaldigital/app/public/.htaccess
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE ABSPATH "dirname(__FILE__) . '/'"
+	UPDATE DB_NAME ""local""
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	UPDATE DB_CHARSET "utf8mb3"
+	UPDATE DB_COLLATE ""
+	WP CONFIG UPDATE WP_DEBUG "false"
+	WP CONFIG UPDATE WP_TEMP_DIR "C:/Users/Admin/Local Sites/reytaldigital/app/public/wp-content/uploads"
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE
+====================================
+
+WEB SERVER CONFIGURATION FILE UPDATED:
+- Preparing .htaccess file with basic setup.
+HTACCESS FILE - Successfully updated the .htaccess file setting.
+
+====================================
+INDEX.PHP UPDATE
+====================================
+INDEX.PHP updated with new blog header "dirname(__FILE__) . '/wp-blog-header.php'"
+
+CHUNK ACTION: CURRENT [gen_update][][]
+
+====================================
+GENERAL UPDATES
+====================================
+
+====================================
+MANAGE PLUGINS
+====================================
+CHUNK ACTION: CURRENT [gen_clean][][]
+
+====================================
+GENERAL CLEANUP
+====================================
+RESET ALL USERS SESSION TOKENS
+MIGRATION INFO SET
+CHUNK ACTION: CURRENT [create_admin][][]
+
+====================================
+RESET USERS PASSWORD
+====================================
+CHUNK ACTION: CURRENT [notice_test][][]
+
+====================================
+CHECK FOR INDEX.HTML
+====================================
+NO INDEX.HTML WAS FOUND
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+CHUNK ACTION: CURRENT [cleanup_tmp_files][][]
+
+====================================
+CLEANUP TMP FILES
+====================================
+CHUNK ACTION: CURRENT [set_files_perms][][]
+
+====================================
+SET PARAMS PERMISSION
+====================================
+\n SKIP FOLDER PERMISSION AFTER EXTRACTION
+CHUNK ACTION: CURRENT [final_report][][]
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 08:57:33 - RUNTIME: 1.6981 sec. 
+
+
+AJAX ACTION [webupdate] SUCCESS
+-------------------------
+
+LOG-TIME[C:\Users\Admin\Local Sites\reytaldigital\app\public\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [finalpre] START
+AJAX ACTION [finalpre] SUCCESS
+-------------------------
+
+LOG-TIME[C:\Users\Admin\Local Sites\reytaldigital\app\public\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [finalafter] START
+AJAX ACTION [finalafter] SUCCESS
+-------------------------
+
+LOG-TIME[C:\Users\Admin\Local Sites\reytaldigital\app\public\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+====================================
+LOG-TIME[C:\Users\Admin\Local Sites\reytaldigital\app\public\dup-installer\ctrls\ctrl.base.php:227][DELTA:   0.09681]  MESSAGE:END RENDER PAGE
