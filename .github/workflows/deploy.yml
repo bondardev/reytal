@@ -56,5 +56,5 @@ jobs:
           password: ${{ secrets.SSH_PASSWORD }}
           port: 22
           script: |
-            mkdir -p /var/www/korovka_eu_usr/data/www/korovka.eu
-            rsync -avz --delete ./ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/var/www/korovka_eu_usr/data/www/korovka.eu
+            ssh-keyscan -H ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts
+            rsync -avz --delete -e "ssh" ./ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/var/www/korovka_eu_usr/data/www/korovka.eu/
