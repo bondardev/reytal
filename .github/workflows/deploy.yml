@@ -1,4 +1,4 @@
-name: Deploy WordPress via FTP
+name: Deploy WordPress via SFTP
 
 on:
   push:
@@ -23,7 +23,7 @@ jobs:
           define( 'DB_HOST', '${{ secrets.DB_HOST }}' );
           define( 'DB_CHARSET', 'utf8mb3' );
           define( 'DB_COLLATE', '' );
-          
+
           define( 'AUTH_KEY',         '$(curl -s https://api.wordpress.org/secret-key/1.1/salt/ | sed -n 1p)' );
           define( 'SECURE_AUTH_KEY',  '$(curl -s https://api.wordpress.org/secret-key/1.1/salt/ | sed -n 2p)' );
           define( 'LOGGED_IN_KEY',    '$(curl -s https://api.wordpress.org/secret-key/1.1/salt/ | sed -n 3p)' );
@@ -48,10 +48,12 @@ jobs:
           require_once ABSPATH . 'wp-settings.php';
           EOL
 
-      - name: Deploy to FTP Server
-        uses: SamKirkland/FTP-Deploy-Action@4.3.0
+      - name: Deploy to SFTP Server
+        uses: appleboy/scp-action@v0.1.4
         with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          security: loose
+          host: ${{ secrets.SFTP_SERVER }}
+          username: ${{ secrets.SFTP_USERNAME }}
+          password: ${{ secrets.SFTP_PASSWORD }}
+          port: 2222
+          source: "./*"
+          target: "/" 
