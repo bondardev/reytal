@@ -52,4 +52,4 @@ jobs:
         with:
           server: korovka.eu
           username: korovka_eu
-          password: ${{ secrets.PASSWORD }}
+          password: 72jnol1bpXcWFUCY
