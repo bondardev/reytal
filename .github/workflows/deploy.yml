@@ -52,4 +52,4 @@ jobs:
         with:
           server: korovka.eu
           username: korovka_eu
-          password: ${{ secrets.FTP_PASSWORD }}
+          password: ${{ secrets.PASSWORD }}
