@@ -53,8 +53,13 @@ jobs:
         with:
           host: ${{ secrets.SSH_HOST }}
           username: ${{ secrets.SSH_USER }}
-          password: ${{ secrets.SSH_PASSWORD }}
+          key: ${{ secrets.SSH_KEY }}
           port: 22
           script: |
+            echo "📡 Scanning SSH keys..."
             ssh-keyscan -H ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts
-            rsync -avz --delete -e "ssh" ./ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/var/www/korovka_eu_usr/data/www/korovka.eu/
+
+            echo "🚀 Starting rsync deployment..."
+            rsync -avz --delete -e "ssh -o StrictHostKeyChecking=no" ./ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/var/www/korovka_eu_usr/data/www/korovka.eu/
+
+            echo "✅ Deployment completed successfully!"
