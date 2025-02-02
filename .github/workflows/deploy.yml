@@ -24,7 +24,7 @@ jobs:
           define( 'DB_CHARSET', 'utf8mb3' );
           define( 'DB_COLLATE', '' );
 
-          $(curl -s https://api.wordpress.org/secret-key/1.1/salt/
+          $(curl -s https://api.wordpress.org/secret-key/1.1/salt/)
           
           define( 'WP_ENVIRONMENT_TYPE', '${{ secrets.WP_ENVIRONMENT_TYPE }}' );
 
