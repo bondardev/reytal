@@ -53,3 +53,5 @@ jobs:
           server: korovka.eu
           username: korovka_eu
           password: 72jnol1bpXcWFUCY
+          security: loose
+          protocol: ftp-active
