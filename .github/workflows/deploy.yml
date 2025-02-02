@@ -1,12 +1,13 @@
-name: Deploy WordPress via FTP
+name: Deploy WordPress via SSH
 
 on:
   push:
     branches:
-      - main  # Deploy from main
+      - main  # Деплой из main
 
 jobs:
   deploy:
+    environment: wp
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -22,16 +23,9 @@ jobs:
           define( 'DB_HOST', '${{ secrets.DB_HOST }}' );
           define( 'DB_CHARSET', 'utf8mb3' );
           define( 'DB_COLLATE', '' );
-          
-          define( 'AUTH_KEY',         '$(curl -s https://api.wordpress.org/secret-key/1.1/salt/ | sed -n 1p)' );
-          define( 'SECURE_AUTH_KEY',  '$(curl -s https://api.wordpress.org/secret-key/1.1/salt/ | sed -n 2p)' );
-          define( 'LOGGED_IN_KEY',    '$(curl -s https://api.wordpress.org/secret-key/1.1/salt/ | sed -n 3p)' );
-          define( 'NONCE_KEY',        '$(curl -s https://api.wordpress.org/secret-key/1.1/salt/ | sed -n 4p)' );
-          define( 'AUTH_SALT',        '$(curl -s https://api.wordpress.org/secret-key/1.1/salt/ | sed -n 5p)' );
-          define( 'SECURE_AUTH_SALT', '$(curl -s https://api.wordpress.org/secret-key/1.1/salt/ | sed -n 6p)' );
-          define( 'LOGGED_IN_SALT',   '$(curl -s https://api.wordpress.org/secret-key/1.1/salt/ | sed -n 7p)' );
-          define( 'NONCE_SALT',       '$(curl -s https://api.wordpress.org/secret-key/1.1/salt/ | sed -n 8p)' );
 
+          $(curl -s https://api.wordpress.org/secret-key/1.1/salt/)
+          
           define( 'WP_ENVIRONMENT_TYPE', '${{ secrets.WP_ENVIRONMENT_TYPE }}' );
 
           \$table_prefix = 'q7xs_';
@@ -47,11 +41,24 @@ jobs:
           require_once ABSPATH . 'wp-settings.php';
           EOL
 
-      - name: Deploy to FTP Server
-        uses: SamKirkland/FTP-Deploy-Action@4.3.0
-        with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./
-          server-dir: /
+      - name: Setup SSH Key
+        run: |
+          echo "🔑 Setting up SSH key..."
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SSH_KEY }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan -H ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts
+          chmod 644 ~/.ssh/known_hosts
+          echo "✅ SSH key setup complete."
+
+      - name: Test SSH Connection
+        run: |
+          echo "🛠 Testing SSH connection..."
+          ssh -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no -v ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} "echo 'SSH connection successful'"
+          echo "✅ SSH connection verified."
+
+      - name: Deploy via SSH using Rsync
+        run: |
+          echo "🚀 Starting rsync deployment..."
+          rsync -avz --delete -e "ssh -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no" ./ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/var/www/korovka_eu_usr/data/www/korovka.eu/
+          echo "✅ Deployment completed successfully!"
