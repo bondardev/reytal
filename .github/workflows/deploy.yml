@@ -1,4 +1,4 @@
-name: Deploy WordPress via SFTP
+name: Deploy WordPress via SSH
 
 on:
   push:
@@ -48,13 +48,13 @@ jobs:
           require_once ABSPATH . 'wp-settings.php';
           EOL
 
-      - name: Deploy to SFTP Server
-        uses: HiRoS119/sftp-action@v1.0.0
+      - name: Deploy via SSH using Rsync
+        uses: appleboy/ssh-action@master
         with:
-          host: ${{ secrets.SFTP_SERVER }}
-          username: ${{ secrets.SFTP_USERNAME }}
-          password: ${{ secrets.SFTP_PASSWORD }}
-          port: 2222
-          localPath: "./*"
-          remotePath: "/korovka.eu"
-          sftpOnly: true 
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USER }}
+          password: ${{ secrets.SSH_PASSWORD }}
+          port: 22
+          script: |
+            mkdir -p /var/www/korovka_eu_usr/data/www/korovka.eu
+            rsync -avz --delete ./ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/var/www/korovka_eu_usr/data/www/korovka.eu
