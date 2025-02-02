@@ -51,5 +51,5 @@ jobs:
         uses: SamKirkland/FTP-Deploy-Action@4.3.0
         with:
           server: korovka.eu
-          username: ${{ secrets.FTP_USERNAME }}
+          username: korovka_eu
           password: ${{ secrets.FTP_PASSWORD }}
