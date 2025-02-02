@@ -24,15 +24,8 @@ jobs:
           define( 'DB_CHARSET', 'utf8mb3' );
           define( 'DB_COLLATE', '' );
 
-          define( 'AUTH_KEY',         '$(curl -s https://api.wordpress.org/secret-key/1.1/salt/ | sed -n 1p)' );
-          define( 'SECURE_AUTH_KEY',  '$(curl -s https://api.wordpress.org/secret-key/1.1/salt/ | sed -n 2p)' );
-          define( 'LOGGED_IN_KEY',    '$(curl -s https://api.wordpress.org/secret-key/1.1/salt/ | sed -n 3p)' );
-          define( 'NONCE_KEY',        '$(curl -s https://api.wordpress.org/secret-key/1.1/salt/ | sed -n 4p)' );
-          define( 'AUTH_SALT',        '$(curl -s https://api.wordpress.org/secret-key/1.1/salt/ | sed -n 5p)' );
-          define( 'SECURE_AUTH_SALT', '$(curl -s https://api.wordpress.org/secret-key/1.1/salt/ | sed -n 6p)' );
-          define( 'LOGGED_IN_SALT',   '$(curl -s https://api.wordpress.org/secret-key/1.1/salt/ | sed -n 7p)' );
-          define( 'NONCE_SALT',       '$(curl -s https://api.wordpress.org/secret-key/1.1/salt/ | sed -n 8p)' );
-
+          $(curl -s https://api.wordpress.org/secret-key/1.1/salt/
+          
           define( 'WP_ENVIRONMENT_TYPE', '${{ secrets.WP_ENVIRONMENT_TYPE }}' );
 
           \$table_prefix = 'q7xs_';
