@@ -50,8 +50,7 @@ jobs:
       - name: Deploy to FTP Server
         uses: SamKirkland/FTP-Deploy-Action@4.3.0
         with:
-          server: korovka.eu
-          username: korovka_eu
-          password: 72jnol1bpXcWFUCY
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
           security: loose
-          protocol: ftp-active
