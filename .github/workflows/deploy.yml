@@ -48,18 +48,24 @@ jobs:
           require_once ABSPATH . 'wp-settings.php';
           EOL
 
+      - name: Setup SSH Key
+        run: |
+          echo "🔑 Setting up SSH key..."
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SSH_KEY }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan -H ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts
+          chmod 644 ~/.ssh/known_hosts
+          echo "✅ SSH key setup complete."
+
+      - name: Test SSH Connection
+        run: |
+          echo "🛠 Testing SSH connection..."
+          ssh -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no -v ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} "echo 'SSH connection successful'"
+          echo "✅ SSH connection verified."
+
       - name: Deploy via SSH using Rsync
-        uses: appleboy/ssh-action@master
-        with:
-          host: ${{ secrets.SSH_HOST }}
-          username: ${{ secrets.SSH_USER }}
-          key: ${{ secrets.SSH_KEY }}
-          port: 22
-          script: |
-            echo "📡 Scanning SSH keys..."
-            ssh-keyscan -H ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts
-
-            echo "🚀 Starting rsync deployment..."
-            rsync -avz --delete -e "ssh -o StrictHostKeyChecking=no" ./ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/var/www/korovka_eu_usr/data/www/korovka.eu/
-
-            echo "✅ Deployment completed successfully!"
+        run: |
+          echo "🚀 Starting rsync deployment..."
+          rsync -avz --delete -e "ssh -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no" ./ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/var/www/korovka_eu_usr/data/www/korovka.eu/
+          echo "✅ Deployment completed successfully!"
