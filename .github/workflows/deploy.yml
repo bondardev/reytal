@@ -56,4 +56,4 @@ jobs:
           password: ${{ secrets.SFTP_PASSWORD }}
           port: 2222
           source: "./*"
-          target: "/" 
+          target: "/korovka.eu" 
